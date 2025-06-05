@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-menu.component.css']
 })
 export class MainMenuComponent {
-
+ mainMenu: string[] = ["Home", "Products","About", "Contact"];
 }
